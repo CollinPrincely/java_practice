@@ -28,6 +28,7 @@ public class MyClass {
         System.out.println(Library.lib_name);
         System.out.println(lib1.b_name);
         System.out.println(lib1.author);
+        System.out.println("Testing");
 
 
     }

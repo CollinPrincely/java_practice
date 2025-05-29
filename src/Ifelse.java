@@ -14,6 +14,7 @@ public class Ifelse {
          else if (age >= 40) fare = fare*0.75;
 
         System.out.println("The fare is  - " + fare);
+        s.close();
 
     }
 

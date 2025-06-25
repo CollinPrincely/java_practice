@@ -7,7 +7,7 @@ public class Atm {
 
         String choice;
         Scanner s = new Scanner(System.in);
-        Account a = new Account(1001,"PQR",123,10000);
+        Account a = new Account(1001,"Subash",123,10000);
 
         System.out.println("\nWelcome to ABC Bank ATM Service\n");
         System.out.print("Enter your ATM pin number - ");

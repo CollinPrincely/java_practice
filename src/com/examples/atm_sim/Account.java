@@ -27,7 +27,7 @@ public class Account extends AccFunctions{
 
         if (amount <= balance){
             balance -= amount;
-            System.out.println(amount + " rupees has been debited from your account - " + acc_num);
+            System.out.println(amount + " Rs has been debited from your account - " + acc_num);
         }
         else System.out.println("Your balance is less than the withdrawal amount. Transaction is not possible.");
 

@@ -12,8 +12,10 @@ public class Atm {
         System.out.println("\nWelcome to ABC Bank ATM Service\n");
         System.out.print("Enter your ATM pin number - ");
         int p = s.nextInt();
+
         if (a.checkPin(p)) {
             System.out.println("Hello " + a.name);
+
             while (true) {
 
                 System.out.println("Choose an option from the menu");
@@ -26,7 +28,6 @@ public class Atm {
 
                 if (choice.equals("c")) {
                     System.out.println("\nYour account balance is " + a.show_Balance() + "\n");
-
                     System.out.print("press y for another transaction or any other key to exit -");
                     String sel = s.next();
                     if (sel.equals("y")) continue;
